@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+body {
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: 'Luxurious Roman', cursive;
+    background-color: #f8dd74;
+}
+.navbar-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3b2d64;
+    padding: 0.5rem;
+}
+
+.input-group {
+    width: 60%;
+    margin: 4rem;
+}
+
+.input-group input {
+    height: 3rem;
+}
+
+#catagories{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.5rem;
+    
+}
+.meal-div {
+    width: 100%;
+}
+.meal-div-link{
+    display: inline-block;
+    border-radius: 2rem;
+}
+.meal-image {
+    width: 100%;
+}
+.meal-image img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 1rem 1rem 0 0;
+}
+.meal-btn{
+    width: 100%;
+    border: none;
+    height: 4.8rem;
+    border-radius: 0 0 1rem 1rem;
+
+}
+#item-not-found{
+    color: black;
+    font-size: 2rem;
+    font-weight: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.8rem lightgreen;
+    background-color: lightgray;
+    /* width: 50%;
+    height: 5rem;
+    padding-top: 1.3rem; */
+}
+
+/* meal Details Section */
+#meal-details{
+    width: 60%;
+    margin-bottom: 3rem;
+
+}
+.meal-details-div {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meal-details-div img {
+    width: 100%;
+    height: 25rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+.discretion {
+    background-color: white;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding-bottom: 3rem;
+}
+.discretion h1{
+    padding: 1rem 0 0 1rem;
+}
+.discretion h3{
+    padding: 0.3rem 0 0 1rem;
+    border-bottom: 0.1rem solid #00000093;
+}
+.ingredients-class {
+    padding: 1rem;
+}
+/* .ingredients-list {
+} */
+.ingredient-item {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 1px;
+}
+.close-btn  {
+    float: right;
+    margin-right: 2rem;
+}
+.close-btn a {
+    cursor: pointer;
+    font-weight: 800;
+    background-image: linear-gradient(lightsalmon, #af36219a);
+    padding: 0.3rem 1.5rem;
+    border-radius: 2rem;
+    
+}
